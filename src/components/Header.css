@@ -1,0 +1,17 @@
+.logoImage{
+    margin-right: 2rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.text{
+    font-size: xx-large;
+    font-weight: 800;
+}

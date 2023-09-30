@@ -1,0 +1,15 @@
+.status{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputStatus{
+    width: 100%;
+    accent-color: blue;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+}

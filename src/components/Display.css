@@ -1,0 +1,31 @@
+.display{
+    display: grid;
+    font-size: large;
+    width: 100%;
+    gap: 1rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerButton{
+    background-color: rgb(105, 104, 104);
+    border: 0.1rem solid white;
+    width: 4rem;
+    height: 2rem;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    color: white;
+    transition: 0.5s ease-out;
+}
+
+.footerButton:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.result{
+    text-align: center;
+}

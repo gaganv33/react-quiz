@@ -1,0 +1,30 @@
+.optionButton{
+    text-align: start;
+    border: 0.1rem solid white;
+    padding: 1rem;
+    background-color: rgb(105, 104, 104);
+    border-radius: 2rem;
+    height: 3rem;
+    font-weight: 600;
+    color: white;
+    transition: 0.5s ease-out;
+}
+
+.optionButton:hover{
+    background-color: black;
+    transition: 0.5s;
+    transform: translateX(1rem);
+}
+
+.correct{
+    background-color: rgb(65, 248, 187);
+    transform: translateX(1rem);
+    pointer-events: none;
+    color: black;
+}
+
+.error{
+    background-color: red;
+    pointer-events: none;
+}
+
