@@ -17,14 +17,18 @@
 }
 
 .correct{
-    background-color: rgb(65, 248, 187);
-    transform: translateX(1rem);
+    color: darkgreen;
+    background-color: rgb(221, 250, 179);
     pointer-events: none;
-    color: black;
 }
 
 .error{
-    background-color: red;
+    background-color: rgb(249, 192, 192);
+    color: red;
     pointer-events: none;
+}
+
+.selected{
+    transform: translateX(1rem);
 }
 

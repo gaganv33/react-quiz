@@ -1,13 +1,13 @@
 import React from "react";
 import "./Status.css";
 
-export default function Status({ points, questionNo }){
+export default function Status({ points, questionNo, numQuestions, maxPoints }){
     return (
         <div className="status">
-            <input className="inputStatus" type="range" min={0} max={15} value={questionNo + 1} disabled />
+            <progress className="inputStatus" min={0} max={numQuestions} value={questionNo + 1} />
             <div className="data">
-                <span>Question {questionNo + 1} / 15</span>
-                <span>{points} / 280 points</span>
+                <span>Question <strong>{questionNo + 1}</strong> / {numQuestions}</span>
+                <span>{points} / {maxPoints} points</span>
             </div>
         </div>
     );
